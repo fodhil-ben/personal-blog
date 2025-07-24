@@ -176,13 +176,13 @@ The vulnerability was reported through the HackerOne platform and received immed
 
 > *"Given the severity of the report, we are paying an initial $$$ on triage. Congratulations! We will award the rest once it's resolved."*
 
-![Initial reward on triage](image-1.png)
+![Initial reward on triage](/f0dh1l/images/first-h1-bounty/image-1.png)
 
 ### Final Severity Assessment
 
 The program assigned a **High severity rating (7.1 CVSS)** to this vulnerability:
 
-![Final severity assessment](image-3.png)
+![Final severity assessment](/f0dh1l/images/first-h1-bounty/image-3.png)
 
 ### Final Bounty Award
 
@@ -190,7 +190,7 @@ After the vulnerability was resolved, we received the final bounty payment along
 
 > *"Additionally, we are giving a one-time $50 bonus as it was a good submission and to encourage you to continue hunting."*
 
-![Final bounty payment](image-4.png)
+![Final bounty payment](/f0dh1l/images/first-h1-bounty/image-4.png)
 
 ## Lessons Learned
 
