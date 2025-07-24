@@ -7,7 +7,22 @@ tags = ["xss", "bug bounty", "web security", "hackerone"]
 
 # From Open Redirect to DOM XSS to Profile Manipulation
 
-## Executive Summary
+## My Journey to HackerOne
+
+After 2.5 years of playing CTFs, I decided to start doing bug bounty to test my skills and try to make some money. My first month on Bugcrowd was mixed - I got some N/A reports, a few informational findings, and some valid P4/P3 vulnerabilities.
+
+Bugcrowd isn't a bad platform, but I had found some critical vulnerabilities there and submitted them. The problem was that they didn't respond to my reports for more than 2 weeks, which made me lose motivation to keep hunting on the same platform. So I decided to switch to HackerOne to get my motivation back.
+
+Just one week into hunting on HackerOne, I found something really good. This wasn't just any normal finding - it was special because it was my:
+
+- **First report on HackerOne**
+- **First High severity finding**  
+- **First collaboration with another hacker**
+- **First XSS vulnerability found**
+
+This was a lot for me! I'm excited to share how a simple open redirect turned into a high-impact DOM XSS that could manipulate user profiles.
+
+## Writeup Summary
 
 During a bug bounty hunt on a target's main domain, I discovered an [open redirect vulnerability](https://owasp.org/www-community/attacks/Unvalidated_Redirects_and_Forwards_Cheat_Sheet) that I successfully escalated to a [DOM-based XSS](https://owasp.org/www-community/attacks/DOM_Based_XSS) with severe impact. Working collaboratively with my friend Amine ([@bm00__](https://x.com/bm00__)), we bypassed [Akamai WAF](https://www.akamai.com/products/cloud-security) protections and achieved:
 
