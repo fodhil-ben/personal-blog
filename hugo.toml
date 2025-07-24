@@ -155,3 +155,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # Site creation time
 
     since = 2025
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
