@@ -37,11 +37,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     pre = ""
     post = ""
 
+
   [[menu.main]]
     weight = 3
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories/"
+    identifier = "about"
+    name = "About"
+    url = "/about/"
     title = ""
     pre = ""
     post = ""
@@ -63,7 +64,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       gravatarEmail = ""
       avatarURL = "images/zoro.jpg"
       title = ""
-      subtitle = "This is My New Hugo Site"
+      subtitle = "0% talent 101% hard work"
       typeit = true
       social = true
       disclaimer = ""
@@ -83,6 +84,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     TryHackMe = "0xF0DH1L"
     Phone = "+213797530466"
     Email = "benhibafodhil@gmail.com"
+    HackerOne = "0xf0dh1l"
 
   [params.author]
     name = "F0DH1L"

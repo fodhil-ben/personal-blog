@@ -2,6 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://localhost:1313/f0dh1l/about/</loc><lastmod>2025-07-24T10:11:07&#43;01:00</lastmod></url><url>
             <loc>http://localhost:1313/f0dh1l/tags/bug-bounty/</loc><lastmod>2025-07-24T10:11:07&#43;01:00</lastmod></url><url>
             <loc>http://localhost:1313/f0dh1l/tags/hackerone/</loc><lastmod>2025-07-24T10:11:07&#43;01:00</lastmod></url><url>
             <loc>http://localhost:1313/f0dh1l/posts/first-h1-bounty/</loc><lastmod>2025-07-24T10:11:07&#43;01:00</lastmod></url><url>
